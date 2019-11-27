@@ -63,18 +63,10 @@ $close.click(function () {
 	closeMenu();
 });
 
-// parallax pro divy s třídou parallax
-window.addEventListener('scroll', function () {
-	var scrollPosition = window.pageYOffset;
-	var bgParallax = document.getElementsByClassName('parallax');
-
-	for (let i = 0; i < bgParallax.length; i++) {
-		let limit = bgParallax[i].offsetTop + bgParallax[i].offsetHeight;
-		if (scrollPosition > bgParallax[i].offsetTop && scrollPosition <= limit) {
-			bgParallax[i].style.backgroundPositionY = (50 - 10 * scrollPosition / limit) + '%';
-		} else {
-			bgParallax[i].style.backgroundPositionY = '50%';
-		}
-	}
-
+var $el = $('.parallax');
+$(window).on('scroll', function () {
+	var scroll = $(document).scrollTop();
+	$el.css({
+		'background-position': '50% ' + (-.1 * scroll) + 'px'
+	});
 });

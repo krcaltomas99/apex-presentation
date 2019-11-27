@@ -6,7 +6,7 @@
 </head>
 <body>
 <?php include('inc/nav.php') ?>
-<header class="subpage">
+<header class="subpage parallax" style="background-image: url('assets/images/services/bg4.jpg')">
 	<div class="header--darken"></div>
 	<div class="container d-flex flex-column h-100">
 		<div class="row">
