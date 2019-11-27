@@ -305,5 +305,20 @@ footer {
     height: 150px;
   }
 }
+@media print {
+  header {
+    display: none;
+  }
+
+  header.subpage {
+    display: none !important;
+    background-image: none;
+  }
+
+  .parallax-window, .parallax-mirror {
+    display: none !important;
+    background-image: none;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */

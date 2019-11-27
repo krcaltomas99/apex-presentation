@@ -7,7 +7,7 @@
 <body>
 <?php include('inc/nav.php') ?>
 <header class="subpage parallax-window" data-parallax="scroll"
-        data-image-src="./assets/images/services/bg2.jpg">
+        data-image-src="./assets/images/services/bg1.jpg">
 	<div class="header--darken"></div>
 	<div class="container d-flex flex-column h-100">
 		<div class="row">
@@ -25,7 +25,7 @@
 
 			<div class="row justify-content-center">
 				<!-- Služba -->
-				<div class="col-12 col-md-6 col-lg-4">
+				<div class="col-12 col-md-6 col-lg-4 mb-4">
 					<div class="service-box shadow-sm px-5 py-3 h-100">
 						<h3 class="font-weight-bold mb-3 text-center">Tvorba webových stránek</h3>
 
@@ -37,7 +37,7 @@
 					</div>
 				</div>
 
-				<div class="col-12 col-md-6 col-lg-4">
+				<div class="col-12 col-md-6 col-lg-4 mb-4">
 					<div class="service-box shadow-sm px-5 py-3 h-100">
 						<h3 class="font-weight-bold mb-3 text-center">SEO Optimalizace</h3>
 
@@ -49,7 +49,7 @@
 					</div>
 				</div>
 
-				<div class="col-12 col-md-6 col-lg-4">
+				<div class="col-12 col-md-6 col-lg-4 mb-4">
 					<div class="service-box shadow-sm px-5 py-3 h-100">
 						<h3 class="font-weight-bold mb-3 text-center">Uprava stávajících webových stránek</h3>
 
@@ -72,7 +72,7 @@
 
 			<div class="row justify-content-center">
 				<!-- Služba -->
-				<div class="col-12 col-md-6 col-lg-4">
+				<div class="col-12 col-md-6 col-lg-4 mb-4">
 					<div class="service-box shadow-sm px-5 py-3 h-100">
 						<h3 class="font-weight-bold mb-3 text-center">Tvorba Loga</h3>
 
@@ -83,7 +83,7 @@
 					</div>
 				</div>
 
-				<div class="col-12 col-md-6 col-lg-4">
+				<div class="col-12 col-md-6 col-lg-4 mb-4">
 					<div class="service-box shadow-sm px-5 py-3 h-100">
 						<h3 class="font-weight-bold mb-3 text-center">Tvorba grafického manuálu</h3>
 
@@ -94,7 +94,7 @@
 					</div>
 				</div>
 
-				<div class="col-12 col-md-6 col-lg-4">
+				<div class="col-12 col-md-6 col-lg-4 mb-4">
 					<div class="service-box shadow-sm px-5 py-3 h-100">
 						<h3 class="font-weight-bold mb-3 text-center">Tvorba bannerů & letáků</h3>
 
@@ -118,7 +118,7 @@
 
 			<div class="row justify-content-center">
 				<!-- Služba -->
-				<div class="col-12 col-md-6 col-lg-4">
+				<div class="col-12 col-md-6 col-lg-4 mb-4">
 					<div class="service-box shadow-sm px-5 py-3 h-100">
 						<h3 class="font-weight-bold mb-3 text-center">Startup</h3>
 
@@ -129,7 +129,7 @@
 					</div>
 				</div>
 
-				<div class="col-12 col-md-6 col-lg-4">
+				<div class="col-12 col-md-6 col-lg-4 mb-4">
 					<div class="service-box shadow-sm px-5 py-3 h-100">
 						<h3 class="font-weight-bold mb-3 text-center">Reklama & Kampaň</h3>
 
@@ -141,7 +141,7 @@
 					</div>
 				</div>
 
-				<div class="col-12 col-md-6 col-lg-4">
+				<div class="col-12 col-md-6 col-lg-4 mb-4">
 					<div class="service-box shadow-sm px-5 py-3 h-100">
 						<h3 class="font-weight-bold mb-3 text-center">Ucelíme vaši firmu</h3>
 

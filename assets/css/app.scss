@@ -364,3 +364,22 @@ footer {
 		height: 150px;
 	}
 }
+
+@media print {
+	body {
+
+	}
+	header {
+		display: none;
+	}
+
+	header.subpage {
+		display: none!important;
+		background-image: none;
+	}
+
+	.parallax-window, .parallax-mirror{
+		display: none!important;
+		background-image: none;
+	}
+}
