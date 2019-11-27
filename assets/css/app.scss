@@ -1,0 +1,346 @@
+@import 'normalize.css';
+
+$nav_height: 100px;
+$scent: #f7d958;
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+nav {
+	padding: 20px 30px;
+	width: 100%;
+	height: $nav_height;
+	background: black;
+	position: relative;
+	z-index: 10;
+
+	.brand-logo img {
+		width: 100px;
+	}
+
+	ul {
+		margin-bottom: 0;
+
+		li {
+			display: inline-block;
+			font-size: 1.25em;
+			margin-right: 20px;
+
+			a {
+				color: white;
+				transition: 130ms ease-in-out;
+				border-bottom: 1px solid transparent;
+
+				&:hover {
+					color: white;
+					border-bottom: 1px solid white;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+p {
+	line-height: 1.6;
+}
+
+header {
+	position: relative;
+	background-image: url(../images/header-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	height: calc(100vh - 100px);
+	width: 100%;
+	padding: 80px 0 40px 0;
+
+	.header--darken {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		z-index: 0;
+		background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+	}
+
+	h1 {
+		font-size: 3.7rem;
+		font-weight: bold;
+	}
+
+	&.subpage {
+		height: 300px;
+	}
+
+	.header--points {
+		h2 {
+			font-weight: 600;
+		}
+
+		h2, p {
+			color: white;
+		}
+
+		p {
+
+		}
+	}
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.ax-link {
+	color: lighten(black, 20);
+
+	&:hover {
+		color: black;
+	}
+}
+
+.about-us {
+	p {
+		font-size: 1.2rem;
+	}
+}
+
+.service-box {
+	img {
+		border-radius: 50%;
+		border: 1px solid #fefefe;
+	}
+}
+
+.parallax {
+	background-position: center;
+}
+
+.price-box {
+	.line {
+		width: 100%;
+		height: 6px;
+		background: $scent;
+	}
+}
+
+.price-button {
+	button:focus {
+		box-shadow: none !important;
+	}
+
+	.active {
+		background: $scent;
+		border-color: transparent;
+		color: black;
+	}
+}
+
+.portfolio-box {
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	height: 180px;
+	margin-bottom: 30px;
+
+	p {
+		position: absolute;
+		left: 10px;
+		bottom: 5px;
+		color: white;
+		font-weight: 700;
+		margin-bottom: 0;
+		z-index: 20;
+		display: block;
+	}
+
+	&:after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 55px;
+		background: linear-gradient(180deg, rgba(39, 39, 39, 0), rgba(0, 0, 0, 0.95));
+		z-index: 1;
+	}
+}
+
+.text-grey {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.korporat, .grafika {
+	display: none;
+}
+
+.btn-gold-outline {
+	color: black;
+	border: 1px solid $scent;
+
+	.active {
+		font-weight: 600;
+	}
+}
+
+img.round {
+	border-radius: 50%;
+}
+
+.reference-box {
+	img {
+		display: block;
+		margin: 0 auto 20px auto;
+	}
+
+	h3 {
+		font-size: 1.5rem;
+		font-weight: bold;
+		text-align: center;;
+	}
+
+	p {
+		font-size: 1.2rem;
+		text-align: center;
+		font-style: italic;
+	}
+}
+
+.contact-form {
+	border-radius: 10px;
+}
+
+.btn-form {
+	border-radius: 20px !important;
+	background: black;
+}
+
+footer {
+	background: black;
+	padding: 40px 0;
+}
+
+.footer-ul {
+	li {
+		margin-right: 10px;
+
+		&:last-child:after {
+			content: '';
+		}
+
+		&:after {
+			content: " | ";
+			display: inline-block;
+			color: white;
+			margin-left: 10px;
+
+		}
+
+		a {
+			color: white;
+		}
+	}
+
+	@media (max-width: 768px) {
+		li:after {
+			display: none;
+		}
+	}
+}
+
+.hamburger {
+	display: none;
+}
+
+@media (max-width: 960px) {
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	h2 {
+		font-size: 1.7rem;
+	}
+
+	h3 {
+		font-size: 1.5rem;
+	}
+
+	h4 {
+		font-size: 1.3rem;
+	}
+
+	p {
+		font-size: 1.1rem;
+	}
+
+	header {
+		padding: 40px 0 20px 0;
+		height: auto;
+
+		h1 {
+			font-size: 2rem;
+		}
+
+		.header--points {
+			img {
+				width: 30px;
+			}
+
+			h2 {
+				font-size: 1rem;
+			}
+
+			p {
+				font-size: 0.8rem;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	nav {
+		height: 80px;
+		z-index: 99;
+
+		ul {
+			display: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100vh;
+			padding-left: 0;
+			width: 100%;
+			background: black;
+			padding-top: 120px;
+
+			li {
+				display: flex;
+				margin: 10px 0;
+				justify-content: center;
+
+				a {
+					letter-spacing: 10px;
+				}
+			}
+		}
+
+		.hamburger, .times {
+			width: 33px;
+			height: 33px;
+			position: relative;
+			display: block;
+			z-index: 100;
+			cursor: pointer;
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	header.subpage {
+		height: 150px;
+	}
+}
