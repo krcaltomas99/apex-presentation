@@ -29,7 +29,7 @@
 					<a href="portfoliopage.php">
 						<div class="portfolio-box">
 							<img class="img-fluid" src="assets/images/portfolio/bg1.jpg" alt="portfolio">
-							<p>Portfolio 1</p>
+							<p>Projekt #1</p>
 						</div>
 					</a>
 				</div>
@@ -38,7 +38,7 @@
 					<a href="portfoliopage.php">
 						<div class="portfolio-box">
 							<img src="assets/images/portfolio/bg2.jpg" alt="portfolio">
-							<p>Portfolio 2</p>
+							<p>Projekt #2</p>
 						</div>
 					</a>
 				</div>
@@ -47,7 +47,7 @@
 					<a href="portfoliopage.php">
 						<div class="portfolio-box">
 							<img src="assets/images/portfolio/bg3.jpg" alt="portfolio">
-							<p>Portfolio 3</p>
+							<p>Projekt #3</p>
 						</div>
 					</a>
 				</div>
@@ -56,7 +56,7 @@
 					<a href="portfoliopage.php">
 						<div class="portfolio-box">
 							<img src="assets/images/portfolio/bg4.jpg" alt="portfolio">
-							<p>Portfolio 4</p>
+							<p>Projekt #4</p>
 						</div>
 					</a>
 				</div>
