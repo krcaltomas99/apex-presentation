@@ -45,4 +45,5 @@
 <script src="assets/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/slick/slick.min.js"></script>
 <script src="assets/lightbox2/dist/js/lightbox.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js"></script>
 <script src="assets/js/main.js"></script>

@@ -96,6 +96,22 @@ header .header--points h2, header .header--points p {
   transform: translate3d(0, 0, 0);
 }
 
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+
+@media (max-width: 968px) {
+  body:not(.header) + .parralax-window {
+    min-height: 300px !important;
+  }
+}
+@media (max-width: 568px) {
+  body:not(.header) + .parralax-window {
+    min-height: 150px !important;
+  }
+}
+
 .price-box .line {
   width: 100%;
   height: 6px;

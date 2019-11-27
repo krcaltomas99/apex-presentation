@@ -6,7 +6,8 @@
 </head>
 <body>
 <?php include('inc/nav.php') ?>
-<header class="subpage">
+<header class="subpage parallax-window" data-parallax="scroll"
+        data-image-src="./assets/images/header-bg.jpg">
 	<div class="header--darken"></div>
 	<div class="container d-flex flex-column h-100">
 		<div class="row">

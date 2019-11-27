@@ -4,9 +4,9 @@
 	<?php include('inc/meta-head.php') ?>
 	<title>Avex Digital | Home</title>
 </head>
-<body>
+<body class="header">
 <?php include('inc/nav.php') ?>
-<header class="parallax">
+<header class="parallax-window" data-parallax="scroll"  data-image-src="./assets/images/header-bg.jpg">
 	<div class="header--darken"></div>
 	<div class="container d-flex flex-column h-100">
 		<div class="row">
@@ -62,8 +62,8 @@
 	</section>
 
 	<!-- Kontejner pro služby -->
-	<div class="container-fluid parallax"
-	     style="background-image: url('assets/images/services/bg2.jpg');height: 300px"></div>
+	<div class="container-fluid parallax-window" data-parallax="scroll"
+	     data-image-src="./assets/images/services/bg1.jpg"></div>
 
 	<section class="py-3 py-md-5 our-services">
 		<div class="container">

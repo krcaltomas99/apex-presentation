@@ -122,6 +122,23 @@ header {
 	transform: translate3d(0, 0, 0);
 }
 
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
+
+body:not(.header) {
+	& + .parralax-window {
+		@media (max-width: 968px) {
+			min-height: 300px !important;
+		}
+
+		@media (max-width: 568px) {
+			min-height: 150px !important;
+		}
+	}
+}
+
 .price-box {
 	.line {
 		width: 100%;

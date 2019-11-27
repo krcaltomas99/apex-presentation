@@ -6,7 +6,8 @@
 </head>
 <body>
 <?php include('inc/nav.php') ?>
-<header class="subpage parallax" style="background-image: url('assets/images/services/bg1.jpg')">
+<header class="subpage parallax-window" data-parallax="scroll"
+        data-image-src="./assets/images/services/bg2.jpg">
 	<div class="header--darken"></div>
 	<div class="container d-flex flex-column h-100">
 		<div class="row">
@@ -61,7 +62,9 @@
 		</div>
 	</section>
 
-	<div class="container-fluid parallax" style="background-image: url('assets/images/services/bg2.jpg');height: 200px"></div>
+	<div class="container-fluid parallax-window"
+	     data-parallax="scroll"
+	     data-image-src="./assets/images/services/bg2.jpg"></div>
 
 	<section class="py-5 our-services">
 		<div class="container">
@@ -105,7 +108,9 @@
 		</div>
 	</section>
 
-	<div class="container-fluid parallax" style="background-image: url('assets/images/services/bg3.jpg');height: 200px"></div>
+	<div class="container-fluid parallax-window"
+	     data-parallax="scroll"
+	     data-image-src="./assets/images/services/bg3.jpg"></div>
 
 	<section class="py-5 our-services mb-5">
 		<div class="container">

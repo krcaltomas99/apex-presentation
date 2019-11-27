@@ -63,10 +63,17 @@ $close.click(function () {
 	closeMenu();
 });
 
-var $el = $('.parallax');
+/*
+let $el = $('.parallax');
 $(window).on('scroll', function () {
-	var scroll = $(document).scrollTop();
-	$el.css({
-		'background-position': '50% ' + (-.1 * scroll) + 'px'
+	$el.each(function() {
+		var scroll = $(document).scrollTop();
+
+		$el.css({
+			'background-position': '50% ' + (-.1 * scroll) + 'px'
+		});
 	});
+
 });
+*/
+

@@ -15,9 +15,8 @@
 				<div class="col-12 col-md-5">
 					<h2 class="font-weight-bold">Přestěhovali jsme se! Provedeme tě naším novým studiem.</h2>
 					<p class="text-muted">
-						z být. Z vyhyne izolovány sezoně délku ženy výskyt už zábava fragmentací o k obdělávání
-						přirovnává
-						především běžná – potřebují dosahující jí ležet přáteli u ne s
+						Rok 2019 pro nás byl velmi úspěšný a tak jsme se přestěhovali a chceme vám představit naší novou
+						kancelář. Také jsme do týmu přivítali dalších 8 členů!
 					</p>
 				</div>
 				<div class="col-12 col-md-7">
@@ -26,18 +25,26 @@
 			</div>
 
 			<div class="row">
-				<div class="col-12 col-md-8 mx-auto py-5">
-					<p class="text-grey text-center">Velice většina zdravotním dlouhý čelovkou uplynulé člun radu
-						chladničku agenturou i začalo
-						naprosto
-						bílé dvou, hlasů o postgraduální zeslabení horské, tezi ze společnost jeví. Létě si soudy evropy
-						stehny vy typy míru v překvapení. Žádné nyní national, ji město řeč tom oceány mu mohli snahy
-						o příspěvek z být. Z vyhyne izolovány sezoně délku ženy výskyt už zábava fragmentací o k
-						obdělávání
-						přirovnává především běžná – potřebují dosahující jí ležet přáteli u ne sousedství adaptoval.
-						Obyvatele u poskytujících věřit cest samozřejmostí hromadně údaje potřebuje internetová tvoří
-						hmotu
-						o internet přiložení, těžko přeji dal vyhynutí</p>
+				<div class="col-12 col-md-8 mx-auto pt-5">
+					<p class="text-grey text-center">Zatímco čtete tenhle článek, my už jsme v Kuala Lumpur a čekáme na
+						další let – snad nám teda to první letadlo neuletělo! Určitě zrovna nadávám, že mi je v letištní
+						hale zima a dala bych cokoli za ponožky do sandálů. Včera mi nebylo zrovna nejlíp, což mě ani
+						nepřekvapilo protože moje tělo se pravidelně před letem sekne a nechce spolupracovat, tak jsem
+						místo posledního řádění na pláži zalehla do postele s černým čajem a začala psát.. to protože mě
+						psaní léčí a uklidňuje</p>
+
+					<br/>
+
+				</div>
+
+				<div class="col-12 col-md-10 mx-auto py-5">
+					<h4>
+						Zatímco čtete tenhle článek, my už jsme v Kuala Lumpur a čekáme na další let – snad nám teda to
+						první letadlo neuletělo! Určitě zrovna nadávám, že mi je v letištní hale zima a dala bych cokoli
+						za ponožky do sandálů. Včera mi nebylo zrovna nejlíp, což mě ani nepřekvapilo protože moje tělo
+						se pravidelně před letem sekne a nechce spolupracovat, tak jsem místo posledního řádění na pláži
+						zalehla do postele s černým čajem a začala psát.. to protože mě psaní léčí a uklidňuje
+					</h4>
 				</div>
 
 				<div>
@@ -45,17 +52,10 @@
 				</div>
 
 				<div class="col-12 col-md-8 mx-auto py-5">
-					<p class="text-grey text-center">Se vítr dnů větve zredukované. Potenciál netopýrům lišit film
-						rozptyl vyhrazeno u zajišťují
-						čechoslováci s položily, té definici. Míře jedná, vědra vichr k definici by k problémy. Obrátit
-						různé základní by vousech dědovými unii umějí živin sportech, zdá ležet spočívá potravou okolní.
-						Mnoha testům nyní hlídá koráby hmoty. Zformování, pocity, tmavou, řeč podceňována, k vzhůru
-						třetí popsat, plavou i stavbu. Tomu drsná ze a podpis finsku plánujete v bouře mixu kolektivního
-						položily doprovázet povede. Zrovna způsobem to výzkumného. Si mé dokončit nedlouho k pokles
-						proběhly podivnou rozkládá půjde, jedno soky tom události dělá snažila změna vše lyžaře ne led
-						skupiny k stehno okny, cíl plná s pocity od spočívající vesmíru o radiové práce v přes. Sotva je
-						půl dvou, ať či pan existuje větru. Jezdí oceán skryté marná ve jazykových, vybráno žil úzkým
-						jít miliony k módní, dob vláken a takového tu bubák vše písek o organismům velká.</p>
+					<p class="text-grey text-center">Za celý svůj život jsem se stěhovala 6x. První dvě stěhování jsem
+						moc neřešila protože jsem byla ještě malý škvrně. Jako prvotní považuji tedy stěhování do
+						Londýna. Můj kufr měl kolem 30ti kilo a zpátky jsem si musela připlatit za další zavazadlo.
+						Nepřeberný množství oblečení jsem prokládala kosmetikou a blbostma z Primarku.</p>
 				</div>
 			</div>
 
@@ -107,6 +107,13 @@
 								</a>
 							</div>
 						</div>
+					</div>
+
+					<div class="col-12 col-md-8 mx-auto">
+						<p class="text-center">Za celý svůj život jsem se stěhovala 6x. První dvě stěhování jsem moc neřešila protože jsem
+							byla ještě malý škvrně. Jako prvotní považuji tedy stěhování do Londýna. Můj kufr měl kolem
+							30ti kilo a zpátky jsem si musela připlatit za další zavazadlo. Nepřeberný množství oblečení
+							jsem prokládala kosmetikou a blbostma z Primarku.</p>
 					</div>
 				</div>
 			</div>
