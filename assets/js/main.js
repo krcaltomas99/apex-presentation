@@ -26,7 +26,7 @@ $('.price-button').click(function (e) {
 	$button.show();
 });
 
-// Lioghtbox
+// Ligghtbox
 lightbox.option({
 	resizeDuration: 200,
 	wrapAround: true,
