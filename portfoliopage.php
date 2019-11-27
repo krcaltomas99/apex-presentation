@@ -114,6 +114,7 @@
 							byla ještě malý škvrně. Jako prvotní považuji tedy stěhování do Londýna. Můj kufr měl kolem
 							30ti kilo a zpátky jsem si musela připlatit za další zavazadlo. Nepřeberný množství oblečení
 							jsem prokládala kosmetikou a blbostma z Primarku.</p>
+						<a class="d-block text-center" href="https://aniesonge.com/stehujeme-se/">Text převzat z tohoto blogu!</a>
 					</div>
 				</div>
 			</div>
