@@ -1,5 +1,5 @@
 <nav class="d-flex justify-content-between align-items-center">
-	<a class="brand-logo" href="/tnpw-projekt/index.php">
+	<a class="brand-logo" href="./index.php">
 		<img src="assets/images/logo_white.svg" alt="white logo">
 	</a>
 
