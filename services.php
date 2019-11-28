@@ -2,7 +2,7 @@
 <html lang="cs">
 <head>
 	<?php include('inc/meta-head.php') ?>
-	<title>Avex Digital | O nás</title>
+	<title>Avex Digital | Služby</title>
 </head>
 <body>
 <?php include('inc/nav.php') ?>
@@ -153,8 +153,9 @@
 				</div>
 			</div>
 
-			<button class="btn text-center d-block mx-auto mt-5"><a href="prices.php">Prohlédněte si náš ceník</a>
-			</button>
+			<a href="prices.php">
+				<button class="btn text-center d-block mx-auto mt-5">Prohlédněte si náš ceník</button>
+			</a>
 		</div>
 	</section>
 

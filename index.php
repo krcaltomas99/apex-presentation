@@ -176,7 +176,7 @@
 			<div class="reference-slick">
 				<div class="col-4 float-left">
 					<div class="reference-box">
-						<img src="https://randomuser.me/api/portraits/women/75.jpg" alt="" class="round">
+						<img src="https://randomuser.me/api/portraits/women/75.jpg" alt="user" class="round">
 						<h3>Renata Nováková</h3>
 						<p>S klukama od Avex Digital jsem byla nadmíru spokojená, postarali se o naši korporátní
 							identitu a zvládli to na jedničku!
@@ -186,7 +186,7 @@
 
 				<div class="col-4 float-left">
 					<div class="reference-box">
-						<img src="https://randomuser.me/api/portraits/men/78.jpg" alt="" class="round">
+						<img src="https://randomuser.me/api/portraits/men/78.jpg" alt="user" class="round">
 						<h3>Honza Malý</h3>
 						<p>Musím říct že spolupráce s týmem Avex Digital byla jedna báseň! Letáky a bannery byli
 							vytvořeny velmi rychle a hlavně velmi kvalitně!
@@ -207,7 +207,7 @@
 
 				<div class="col-4 float-left">
 					<div class="reference-box">
-						<img src="https://randomuser.me/api/portraits/men/75.jpg" alt="" class="round">
+						<img src="https://randomuser.me/api/portraits/men/75.jpg" alt="user" class="round">
 						<h3>Tomáš Kvapil</h3>
 						<p>Potřeboval jsem zhotovit grafický manuál a redesign naší firmy a byl jsem nadmíru spokojený.
 							Práce byla odevzdána včas a hlavně odvedena kvalitně. Nevím jak to dělají, ale obrátím se na
@@ -219,7 +219,7 @@
 	</section>
 
 	<div class="container pb-5">
-		<?php include('inc/form.php') ?>
+		<?php include('inc/.php') ?>
 	</div>
 </main>
 

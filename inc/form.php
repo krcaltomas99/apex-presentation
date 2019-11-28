@@ -25,14 +25,13 @@
 	</div>
 
 	<div class="col-12 col-md-6">
-		<form class="contact-form shadow-sm p-4" action="">
+		<form class="contact-form shadow-sm p-4" action="./index.php">
 			<h3 class="font-weight-bold">Kontakt</h3>
 
 			<div class="form-group">
 				<label for="email">Email</label>
 				<input id="email" name="email" class="form-control" type="text">
 			</div>
-
 			<div class="form-group">
 				<label for="tel">Telefoní číslo</label>
 				<input id="tel" name="tel" class="form-control" type="text">
