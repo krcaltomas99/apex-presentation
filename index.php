@@ -219,7 +219,7 @@
 	</section>
 
 	<div class="container pb-5">
-		<?php include('inc/.php') ?>
+		<?php include('inc/form.php') ?>
 	</div>
 </main>
 

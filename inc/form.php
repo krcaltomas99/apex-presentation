@@ -6,7 +6,8 @@
 
 		<div class="row">
 			<div class="col-12 col-md-8">
-				<p class="mb-5">Sdělte nám co potřebujete, s čím máte problém, a náš tým se na to podívá a ihned vám dá vědět o
+				<p class="mb-5">Sdělte nám co potřebujete, s čím máte problém, a náš tým se na to podívá a ihned vám dá
+					vědět o
 					další možné
 					spolupráci</p>
 			</div>
@@ -25,16 +26,26 @@
 	</div>
 
 	<div class="col-12 col-md-6">
-		<form class="contact-form shadow-sm p-4" action="./index.php">
+		<form class="contact-form shadow-sm p-3 p-md-4" action="./index.php">
 			<h3 class="font-weight-bold">Kontakt</h3>
 
 			<div class="form-group">
 				<label for="email">Email</label>
 				<input id="email" name="email" class="form-control" type="text">
+				<div class="error">
+					<p class="small text-danger mb-0 mt-2">
+						Zadej správný email.
+					</p>
+				</div>
 			</div>
 			<div class="form-group">
 				<label for="tel">Telefoní číslo</label>
 				<input id="tel" name="tel" class="form-control" type="text">
+				<div class="error">
+					<p class="small text-danger mb-0 mt-2">
+						Zadej platné telefonní číslo.
+					</p>
+				</div>
 			</div>
 
 			<div class="form-group">

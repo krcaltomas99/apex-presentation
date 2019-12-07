@@ -77,3 +77,80 @@ $(window).on('scroll', function () {
 });
 */
 
+let isEmailValid = false;
+let isPhoneValid = false;
+
+// Validace Emailu s formulářem
+$('form input#email').keyup(function (e) {
+	if ($(this).val()) {
+		if (!isEmail(e.target.value)) {
+			isEmailValid = false;
+			$(this).parent().find('.error').show();
+		} else {
+			isEmailValid = true;
+			$(this).parent().find('.error').hide();
+		}
+	} else {
+		$(this).parent().find('.error').hide();
+	}
+});
+
+// Validace telefonního čísla
+$('form input#tel').keyup(function (e) {
+	if ($(this).val()) {
+		if (!isPhone(e.target.value)) {
+			isPhoneValid = false;
+			$(this).parent().find('.error').show();
+		} else {
+			isPhoneValid = true;
+			$(this).parent().find('.error').hide();
+		}
+	} else {
+		$(this).parent().find('.error').hide();
+	}
+});
+
+// Kontrolova emailu a telefonu přes RegEx
+
+function isEmail(email) {
+	var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+	return regex.test(email);
+}
+
+function isPhone(tel) {
+	let regex = /^[+]([0-9]{10})|(\([0-9]{3}\)\s+[0-9]{3}\-[0-9]{3})/;
+	return regex.test(tel)
+}
+
+function showModal() {
+	$('.modal').fadeIn(200);
+}
+
+function showDarker() {
+	$('.darker').fadeIn(200);
+}
+
+function hideModal() {
+	$('.modal').fadeOut(200);
+}
+
+function hideDarker() {
+	$('.darker').fadeOut(200);
+}
+
+// Kontrola při odeslání ofrmuláře
+$("form").submit(function (e) {
+	e.preventDefault();
+	if (isPhoneValid && isEmailValid) {
+		showModal();
+		showDarker();
+	}
+});
+
+
+// Dismiss modálu
+$(".darker, .modal .fa-times").click(function () {
+	hideModal();
+	hideDarker();
+});
+

@@ -34,6 +34,23 @@
 		<h4 class="text-white text-center mt-5">Tento projekt je součástí semestrální práce</h4>
 	</div>
 </footer>
+<div class="darker"></div>
+<div class="modal">
+	<div class="header border-bottom p-3">
+		<div class="d-flex justify-content-between">
+			<h4 class="font-weight-bold mb-0">Děkujeme Vám moc za napsání!</h4>
+			<i class="fas fa-times"></i>
+		</div>
+	</div>
+	<div class="body p-3">
+		<p class="mb-4">
+			Brzy se vám ozveme s bližšími informacemi ohledně vaší zprávy!
+		</p>
+		<p class="text-center mb-0">
+			<i class="far fa-check-circle fa-3x text-success"></i>
+		</p>
+	</div>
+</div>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
